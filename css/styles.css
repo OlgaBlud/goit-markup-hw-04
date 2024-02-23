@@ -98,6 +98,17 @@ img {
 .nav-links:hover,
 .nav-links:focus {
   color: #404bbf;
+  padding-bottom: 0;
+}
+
+.nav-links:hover::after {
+  content: '';
+  display: block;
+  background-color: #404bbf;
+  width: 48px;
+  height: 4px;
+  margin: 20px auto 0;
+  margin-top: 20px;
 }
 .contacts {
   font-style: normal;
