@@ -105,8 +105,7 @@ img {
 .nav-links:focus {
   color: #404bbf;
 }
-.nav-links:hover::after,
-.nav-links:focus::after {
+.nav-links.active::after {
   content: '';
   display: block;
   position: absolute;
