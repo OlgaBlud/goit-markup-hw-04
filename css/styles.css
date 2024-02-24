@@ -90,6 +90,7 @@ img {
 }
 
 .nav-links {
+  position: relative;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -102,7 +103,6 @@ img {
 }
 .nav-links:hover,
 .nav-links:focus {
-  position: relative;
   color: #404bbf;
 }
 .nav-links:hover::after,
